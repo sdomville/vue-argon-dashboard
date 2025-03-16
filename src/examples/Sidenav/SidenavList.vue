@@ -57,7 +57,7 @@ const getRoute = () => {
       <li class="nav-item">
         <sidenav-item
           to="/signup"
-          :class="getRoute() === 'profile' ? 'active' : ''"
+          :class="getRoute() === 'signup' ? 'active' : ''"
           :navText="'Epic ACs'"
         >
           <template v-slot:icon>
