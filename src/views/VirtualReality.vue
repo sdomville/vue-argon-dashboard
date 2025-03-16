@@ -2,7 +2,6 @@
 import { onMounted, onBeforeMount, onBeforeUnmount } from "vue";
 import { useStore } from "vuex";
 import Sidenav from "@/examples/Sidenav";
-import AppFooter from "@/examples/Footer.vue";
 import Navbar from "@/examples/Navbars/Navbar.vue";
 import CardCalendar from "./components/CardCalendar.vue";
 import CardEmail from "./components/CardEmail.vue";
@@ -57,7 +56,7 @@ onBeforeUnmount(() => {
     />
   </div>
   <div
-    class="mx-3 mt-4 border-radius-xl position-relative"
+    class="mx-3 mt-4 border-radius-sm position-relative"
     :style="{
       backgroundImage: 'url(' + require('@/assets/img/vr-bg.jpg') + ')',
       backgroundSize: 'cover',

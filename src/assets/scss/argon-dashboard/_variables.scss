@@ -456,7 +456,7 @@ $border-radius-xs: 0.125rem !default;
 $border-radius-sm: 0.25rem !default;
 $border-radius-md: 0.5rem !default;
 $border-radius-lg: 0.75rem !default;
-$border-radius-xl: 1rem !default;
+$border-radius-sm: 1rem !default;
 $border-radius-2xl: 1.5rem !default;
 $border-radius-section: 10rem !default;
 
@@ -1330,7 +1330,7 @@ $card-spacer-y: $spacer !default;
 $card-spacer-x: $spacer !default;
 $card-title-spacer-y: $spacer / 2 !default;
 $card-border-width: 0 !default;
-$card-border-radius: 1rem !default;
+$card-border-radius: 0.25rem !default;
 $card-border-color: rgba($black, 0.125) !default;
 $card-inner-border-radius: subtract(
   $card-border-radius,

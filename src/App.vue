@@ -18,7 +18,6 @@ import { useStore } from "vuex";
 import Sidenav from "./examples/Sidenav";
 import Configurator from "@/examples/Configurator.vue";
 import Navbar from "@/examples/Navbars/Navbar.vue";
-import AppFooter from "@/examples/Footer.vue";
 
 const store = useStore();
 const isNavFixed = computed(() => store.state.isNavFixed);

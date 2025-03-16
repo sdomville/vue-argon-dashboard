@@ -20,7 +20,7 @@ const darkMode = computed(() => store.state.darkMode);
   />
 
   <aside
-    class="my-3 overflow-auto border-0 sidenav navbar navbar-vertical navbar-expand-xs border-radius-xl"
+    class="my-3 overflow-auto border-0 sidenav navbar navbar-vertical navbar-expand-xs border-radius-sm"
     :class="`${isRTL ? 'me-3 rotate-caret fixed-end' : 'fixed-start ms-3'}    
       ${
         layout === 'landing' ? 'bg-transparent shadow-none' : ' '
@@ -37,7 +37,7 @@ const darkMode = computed(() => store.state.darkMode);
       <router-link class="m-0 navbar-brand" to="/">
         <div class="logo-img navbar-brand-img h-100">
           <img :src="buddyimg" alt="">
-          <span class="ms-2 font-weight-bold me-2">BUDDY</span>
+          <span class="ms-2 fw-bold me-2">BUDDY</span>
         </div>
         <!-- <img
           :src="darkMode || sidebarType === 'bg-default' ? logoWhite : logo"
@@ -64,7 +64,7 @@ const darkMode = computed(() => store.state.darkMode);
     margin-right: 10px;
     /* background: white; */
   }
-  
+
   img{
     max-width: 50px;
     border-radius: 50%;

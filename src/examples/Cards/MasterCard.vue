@@ -29,7 +29,7 @@ defineProps({
 <template>
   <div class="card bg-transparent shadow-xl">
     <div
-      class="overflow-hidden position-relative border-radius-xl"
+      class="overflow-hidden position-relative border-radius-sm"
       :style="{
         backgroundImage: 'url(' + require('@/assets/img/card-visa.jpg') + ')',
       }"
