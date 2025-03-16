@@ -23,8 +23,8 @@ const getRoute = () => {
     <ul class="navbar-nav">
       <li class="nav-item">
         <sidenav-item
-          to="/dashboard-default"
-          :class="getRoute() === 'dashboard-default' ? 'active' : ''"
+          to="/buddy-home"
+          :class="getRoute() === 'buddy-home' ? 'active' : ''"
           :navText="isRTL ? 'لوحة القيادة' : 'Dashboard'"
         >
           <template v-slot:icon>

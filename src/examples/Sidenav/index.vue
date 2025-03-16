@@ -2,8 +2,9 @@
 import { computed } from "vue";
 import { useStore } from "vuex";
 import SidenavList from "./SidenavList.vue";
-import logo from "@/assets/img/logo-ct-dark.png";
-import logoWhite from "@/assets/img/logo-ct.png";
+//import logo from "@/assets/img/logo-ct-dark.png";
+//import logoWhite from "@/assets/img/logo-ct.png";
+import buddyimg from "@/assets/img/buddy.png";
 
 const store = useStore();
 const isRTL = computed(() => store.state.isRTL);
@@ -34,13 +35,16 @@ const darkMode = computed(() => store.state.darkMode);
       ></i>
 
       <router-link class="m-0 navbar-brand" to="/">
-        <img
+        <div class="logo-img navbar-brand-img h-100">
+          <img :src="buddyimg" alt="">
+          <span class="ms-2 font-weight-bold me-2">BUDDY</span>
+        </div>
+        <!-- <img
           :src="darkMode || sidebarType === 'bg-default' ? logoWhite : logo"
           class="navbar-brand-img h-100"
           alt="main_logo"
-        />
-
-        <span class="ms-2 font-weight-bold me-2">Argon Dashboard 2</span>
+        /> -->
+        <!-- <span class="ms-2 font-weight-bold me-2">BUDDY</span> -->
       </router-link>
     </div>
 
@@ -49,3 +53,20 @@ const darkMode = computed(() => store.state.darkMode);
     <sidenav-list />
   </aside>
 </template>
+<style>
+  .logo-img{
+    /* width: 40px; */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 40px; */
+    margin-left: 18%;
+    margin-right: 10px;
+    /* background: white; */
+
+    img{
+      max-width: 50px;
+      border-radius: 50%;
+    }
+  }
+  </style>

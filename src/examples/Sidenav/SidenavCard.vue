@@ -71,13 +71,5 @@ defineProps({
       التطور للاحترافية
     </a>
 
-    <a
-      v-else
-      href="https://www.creative-tim.com/product/vue-argon-dashboard-pro"
-      target="_blank"
-      class="mb-3 btn btn-success btn-sm w-100"
-    >
-      Upgrade to pro
-    </a>
   </div>
 </template>

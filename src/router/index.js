@@ -12,10 +12,10 @@ const routes = [
   {
     path: "/",
     name: "/",
-    redirect: "/dashboard-default",
+    redirect: "/buddy-home",
   },
   {
-    path: "/dashboard-default",
+    path: "/buddy-home",
     name: "Dashboard",
     component: Dashboard,
   },
