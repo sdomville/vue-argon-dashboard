@@ -27,14 +27,6 @@ defineProps({
     >
       <li class="text-sm breadcrumb-item">
         <a
-          v-if="isRTL"
-          class="opacity-5 ps-2"
-          href="#"
-          :class="isNavFixed ? 'text-dark' : 'text-white'"
-          >لوحات القيادة</a
-        >
-        <a
-          v-else
           :class="isNavFixed ? 'text-dark' : 'text-white'"
           class="opacity-8"
           href="#"

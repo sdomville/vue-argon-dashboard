@@ -63,10 +63,10 @@ const darkMode = computed(() => store.state.darkMode);
     margin-left: 18%;
     margin-right: 10px;
     /* background: white; */
-
-    img{
-      max-width: 50px;
-      border-radius: 50%;
-    }
+  }
+  
+  img{
+    max-width: 50px;
+    border-radius: 50%;
   }
   </style>
