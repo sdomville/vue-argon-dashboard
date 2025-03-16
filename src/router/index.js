@@ -14,8 +14,8 @@ const routes = [
     redirect: "/dashboard",
   },
   {
-    path: "/dashboard",
-    name: "Dashboard",
+    path: "/overview",
+    name: "Overview",
     component: Dashboard,
   },
   {

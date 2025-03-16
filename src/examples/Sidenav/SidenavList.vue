@@ -16,9 +16,9 @@ const getRoute = () => {
     <ul class="navbar-nav">
       <li class="nav-item">
         <sidenav-item
-          to="/dashboard"
-          :class="getRoute() === 'dashboard' ? 'active' : ''"
-          :navText="'Dashboard'"
+          to="/overview"
+          :class="getRoute() === 'overview' ? 'active' : ''"
+          :navText="'Overview'"
         >
           <template v-slot:icon>
             <i class="ni ni-chart-pie-35 text-primary text-sm opacity-10"></i>
